@@ -1,17 +1,46 @@
 {
   "env": {
-    "browser": true
+    "browser": true,
+    "node": true,
+    "jest": true
   },
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": "eslint:recommended",
+  "extends": ["eslint:recommended",
+               "plugin:react/recommended"
+             ],
+  "plugins": ["jest",
+              "react"
+             ],
   "rules": {
-    "no-console": "warn",
+    "no-console": "off",
+    "jest/expect-expect": "error",
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/prefer-expect-assertions": "warn",
+    "jest/no-test-prefixes": "warn",
+    "jest/no-test-return-statement": "warn",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
     "no-var": "error",
     "prefer-const": "error",
     "eqeqeq": "error",
     "indent": ["error", 2]
-  }
+  },
+    "globals": {
+      "module": true,
+      "require": true,
+      "describe": true,
+      "test": true,
+      "expect": true
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
 }

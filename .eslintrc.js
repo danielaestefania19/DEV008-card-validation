@@ -17,5 +17,17 @@ module.exports = {
         "react"
     ],
     "rules": {
-    }
+    },
+    "globals": {
+        "module": true,
+        "require": true,
+        "describe": true,
+        "test": true,
+        "expect": true
+    },
+    "settings": {
+        "react": {
+          "version": "detect"
+        }
+    }  
 }
