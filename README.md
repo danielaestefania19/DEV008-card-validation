@@ -1,4 +1,37 @@
-# Tarjeta de crédito válida
+
+
+# Página de Validación de Tarjetas para Mujeres en una Tienda Virtual: 
+¡Bienvenido/a a nuestra página de validación de tarjetas para mujeres en nuestra tienda virtual! Esta aplicación web se ha creado con el objetivo de ofrecer una experiencia segura y conveniente para las mujeres al realizar compras en nuestra tienda en línea. Aquí encontrarás información sobre cómo utilizar la página, sus características principales y cómo contribuir al proyecto.
+
+# Características:  
+Validación de tarjetas: La página de validación de tarjetas permite a las usuarias verificar la validez de sus tarjetas de crédito o débito antes de realizar una compra. Esto ayuda a prevenir problemas asociados con transacciones fallidas o fraudes.
+
+# Seguridad y privacidad: 
+Nos tomamos muy en serio la seguridad y privacidad de nuestras usuarias. Utilizamos los más altos estándares de encriptación y protección de datos para garantizar que la información personal y financiera esté segura en todo momento.
+
+# Diseño intuitivo: 
+Hemos creado una interfaz intuitiva y fácil de usar para que todas las usuarias, independientemente de sus habilidades técnicas, puedan utilizar la página de validación de tarjetas sin dificultad.
+
+
+# Cómo utilizar la página: 
+Ingresar los datos de la tarjeta: En la página principal, completa los campos requeridos con la información de tu tarjeta, como el número de tarjeta, fecha de vencimiento y código de seguridad.
+
+# Clic en "Enviar": 
+Una vez que hayas ingresado la información, haz clic en el botón "Enviar" para iniciar el proceso de verificación.
+
+# Obtener resultados: 
+La página mostrará inmediatamente el resultado de la validación. Si la tarjeta es válida, podrás proceder con la compra en nuestra tienda virtual. En caso contrario, se proporcionará un mensaje de error indicando el motivo de la invalidez.
+
+# Contribuciones
+Si deseas contribuir a nuestro proyecto y mejorar la página de validación de tarjetas para mujeres, ¡estamos abiertos a tus sugerencias y colaboración! Aquí hay algunas formas en las que puedes ayudar:
+
+- Reportar problemas o errores: Si encuentras algún problema técnico o errores de funcionamiento, por favor, abre un "Issue" en este repositorio y describe el problema detalladamente.
+
+- Mejoras de usabilidad: Si tienes ideas para mejorar la interfaz de usuario, la experiencia de usuario o cualquier otro aspecto relacionado con la usabilidad de la página, ¡nos encantaría escuchar tus sugerencias!
+
+- Traducciones: Si eres fluente en otros idiomas y te gustaría ayudarnos a traducir la página a tu idioma nativo, estaremos encantados de recibir tu colaboración.
+
+# Tarjeta de crédito válida 
 
 ## Índice
 

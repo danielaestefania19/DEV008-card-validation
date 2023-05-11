@@ -3,10 +3,11 @@
 
 const validator = {
   isValid: function(creditCardNumber) {
+   //console.log("Hola Dadi estoy validando....")
     // Eliminar cualquier espacio en blanco y guiones
     creditCardNumber = creditCardNumber.replace(/\s+/g, '').replace(/-/g, '');
     // implementar el algoritmo de Luhn para validar el número de tarjeta de crédito
-    // vericar si el número es válido
+    // verificar si el número es válido
     const digits = creditCardNumber.split('').map(Number);
     let sum = 0;
     for (let i = digits.length - 1; i >= 0; i--) {
@@ -33,6 +34,19 @@ const validator = {
       const lastFour = creditCardNumber.slice(-4);
       const mask = "#".repeat(creditCardNumber.length - 4);
       return mask + lastFour;
+    }
+  },
+
+  detectCreditCardType: function(creditCardNumber) {
+    const visaPattern = /^4/;
+    const mastercardPattern = /^5[1-5]/;
+
+    if (creditCardNumber.match(visaPattern)) {
+      return "Visa";
+    } else if (creditCardNumber.match(mastercardPattern)) {
+      return "MasterCard";
+    } else {
+      return "Desconocido";
     }
   }
 };

@@ -32,5 +32,8 @@
     "createdAt": "2023-04-20T15:42:40.404Z",
     "version": "6.2.0",
     "commit": "a5360f78b634be4f14eaea996ee4c7afc85a2f48"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
   }
 }
